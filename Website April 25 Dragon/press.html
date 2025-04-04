@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Press</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+</head>
+<body>
+
+    <div class="header">
+        <a href="index.html" id="title">QUAKING ASPENS </a>
+    </div>
+
+    <div class="navbar">
+        <a href="music.html" id="navlink">Music</a>
+        <a href="video.html" id="navlink">Video</a>
+        <a href="tour.html" id="navlink">Tour</a>
+        <a href="merch.html" id="navlink">Merch</a>
+        <a href="press.html" id="navlink">✢ Press ✢</a>
+        <a href="contact.html" id="navlink">Contact</a>
+    </div>
+
+    <!-- Page content below -->
+
+
+
+<div id="pic-section-layout">
+
+    <div id="flex-container-pics"></div>
+
+    <div id="flex-container-pics">
+        
+        <div id="flex-item-pic">
+            <a target="_blank" href="PasPress4.jpg">
+            <img class="press-img" src="PasPress4.jpg">
+            </a>
+        </div>
+
+        <div id="flex-item-pic">
+            <a target="_blank" href="PasPress1.jpg">
+            <img class="press-img" src="PasPress1.jpg">
+            </a>
+        </div>
+
+        
+
+        <div id="flex-item-pic">
+            <a target="_blank" href="PasPress2.jpg">
+            <img class="press-img" src="PasPress2.jpg">
+            </a>
+        </div>
+
+        <div id="flex-item-pic">
+            <a target="_blank" href="Iceland_2.jpg">
+            <img class="press-img" src="Iceland_2.jpg">
+            </a>
+        </div>
+
+        <div id="flex-item-pic">
+            <a target="_blank" href="Lights.jpeg">
+            <img class="press-img" src="Lights.jpeg">
+            </a>
+        </div>
+
+        <div id="flex-item-pic">
+            <a target="_blank" href="Mirror.jpg">
+            <img class="press-img" src="Mirror.jpg">
+            </a>
+        </div>
+
+       
+
+    </div>
+
+    <div id="flex-container-pics"></div>
+
+
+</div>
+
+
+
+<div id="press-page">
+
+    <div id="press-item"> </div>
+  <!-- pad -->
+    <div id="press-item">
+
+        <div id="bio">
+        <p1 >
+            Quaking Aspens are an ethereal alt-rock outfit carving their name into Brighton's vibrant music scene. Since relocating to the city in 2022, they've swiftly established themselves in the local music scene and beyond, appearing on BBC Introducing Sussex and Surrey as well as lighting up stages from festivals like The Alternative Escape and Homegrown Brighton, to appearing in more intimate settings for Sofar Sounds and at the Bella Union Vinyl Shop's Sandwich Sessions.<br><br>
+
+
+Their sound is a lush collision of electric guitars and intricately layered vocals, weaving together influences from alt-rock, shoegaze, and folk. Underpinned by driving rhythms, their music has been described as both visceral and evocative.<br><br>
+
+
+        </p1>
+        </div>
+
+        <button id="copyButton" onclick="copyBio()">[Copy Bio]</button>
+
+        <div id="quotes">
+
+        <p1>
+            “Moody in all the right ways, Quaking Aspens deliver a sound that is as interesting as it is beguiling…they’ve been able to create an atmosphere very much their own and their live show is nothing short of hypnotic” - The Folklore Rooms<br><br>
+
+            "Quickly becoming one of Brighton’s most-beloved..." -Brighton and Hove News<br><br>
+
+        </p1>
+        </div>
+
+    </div>
+
+    <div id="press-item"> 
+        <!-- pad -->
+    </div>
+
+    <div id="press-item"> 
+        <!-- pad -->
+    </div>
+
+    <div id="press-item"> 
+        <img id="logo"  src="Quaking Aspens.png" width=500px;><br>
+        <button id="copyButton"> <a href="Quaking Aspens.png" download target="_blank">[Download Logo]</a></button>
+    </div>
+
+    <div>
+
+       
+
+    </div>
+
+</div>
+
+
+    <!--Footer below-->
+
+    <div class="socialbar">
+        
+        <a target="_blank" href="https://quakingaspens.bandcamp.com/music" id="sociallink">
+        <img src="bandcamp-button-bc-circle-black-128.png" class="social-icon">
+        </a>
+
+        <a target="_blank" href="https://www.instagram.com/quakingaspensmusic/" id="sociallink">
+        <img src="Instagram_Glyph_Black.png" class="social-icon">
+        </a>
+
+        <a target="_blank" href="https://www.youtube.com/@quakingaspensmusic" id="sociallink">
+        <img src="youtube_social_circle_dark.png" class="social-icon">
+        </a>
+
+        <a target="_blank" href="https://open.spotify.com/artist/0eVCmlLTmqU6PTSJ8fuEu4?si=Vu3pYv-vTr2m-DInXV5X5Q" id="sociallink">
+            <img src="Spotify_Primary_Logo_RGB_Black.png" class="social-icon">
+            </a>
+        
+    </div>
+
+<script>
+
+function copyBio(){
+    var bio = document.getElementById("bio").innerText;
+    navigator.clipboard.writeText(bio);
+    alert("Bio copied to clipboard");   
+}
+
+
+</script>
+
+</body>
+</html>
